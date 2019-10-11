@@ -18,7 +18,7 @@ with open(path.join(here, 'requirements.txt')) as f:
 
 setup(
     name='robotframework-requestschecker',
-    version='1.0.0',
+    version='2.0.0',
     description='Robot Framework Library For Checking HTTP Response Status Codes',
     long_description=long_description,
     url='https://github.com/peterservice-rnd/robotframework-requestschecker',
@@ -30,7 +30,6 @@ setup(
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Testing',
         'License :: OSI Approved :: Apache Software License',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Framework :: Robot Framework :: Library',
